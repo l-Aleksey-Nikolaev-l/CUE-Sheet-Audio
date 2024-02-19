@@ -1,0 +1,25 @@
+{
+  "name": "cue-sheet-audio",
+  "displayName": "CUE Sheet Audio",
+  "description": "This is an extension for CUE Sheets of audio files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cuesheet",
+      "aliases": ["CUE Sheet Audio", "cuesheet"],
+      "extensions": [".cue",".CUE"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cuesheet",
+      "scopeName": "source.cuesheet",
+      "path": "./syntaxes/cuesheet.tmLanguage.json"
+    }]
+  }
+}
