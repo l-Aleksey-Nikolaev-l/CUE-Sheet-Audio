@@ -2,7 +2,14 @@
   "name": "cue-sheet-audio",
   "displayName": "CUE Sheet Audio",
   "description": "This is an extension for CUE Sheets of Audio files",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "author": "Aleksey Nikolaev",
+	"publisher": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/l-Aleksey-Nikolaev-l/CUE-Sheet-Audio"
+	},
+	"icon": "images/icon.png",
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -12,7 +19,7 @@
   "contributes": {
     "languages": [{
       "id": "cuesheet",
-      "aliases": ["CUE Sheet Audio", "cuesheet"],
+      "aliases": ["CUE Sheet Audio", "CUE Sheet", "cuesheet"],
       "extensions": [".cue",".CUE"],
       "configuration": "./cuesheet-configuration.json"
     }],
@@ -20,6 +27,10 @@
       "language": "cuesheet",
       "scopeName": "source.cuesheet",
       "path": "./syntaxes/cuesheet.tmLanguage.json"
-    }]
+    }],
+    "snippets": [{
+				"language": "cuesheet",
+				"path": "./snippets/snippets.json"
+			}]
   }
 }
