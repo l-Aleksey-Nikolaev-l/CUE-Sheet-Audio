@@ -32,5 +32,18 @@
 				"language": "cuesheet",
 				"path": "./snippets/snippets.json"
 			}]
+  },
+  "configurationDefaults": {
+    "[cuesheet]": {
+      "workbench.editor.languageDetection": true,
+      "editor.cursorWidth": 3,
+      "editor.cursorBlinking": "phase",
+      "editor.cursorSmoothCaretAnimation": "on",
+      "editor.suggest.showWords": false,
+      "editor.occurrencesHighlight": "off",
+      "editor.fontSize": 16,
+      "editor.smoothScrolling": true,
+      "editor.semanticHighlighting.enabled": true
+    }
   }
 }

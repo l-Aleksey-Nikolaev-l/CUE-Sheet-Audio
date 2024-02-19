@@ -12,6 +12,6 @@ This extension was created to make it more convenient to create and edit CUE She
 - COMMENT "Initial release"
 
 ## For more information
-- [Click this Link To CUE Sheet information](https://wiki.hydrogenaud.io/index.php?title=Cue_sheet)
+- [Click this link for more information about the CUE Sheet](https://wiki.hydrogenaud.io/index.php?title=Cue_sheet)
 
 **Enjoy!**
