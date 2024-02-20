@@ -44,6 +44,308 @@
       "editor.fontSize": 16,
       "editor.smoothScrolling": true,
       "editor.semanticHighlighting.enabled": true
+    },
+    "editor.tokenColorCustomizations": {
+      "[*] [JetBrains Darcula Theme]": {
+        "textMateRules": [
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.error",
+            "settings": {
+              "foreground": "#FF0000",
+              "fontStyle": "underline"
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.REM",
+            "settings": {
+              "foreground": "#8e8e8e",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.REM.comment",
+            "settings": {
+              "foreground": "#6A9955",
+              "fontStyle": "bold"
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.CATALOG,cuesheet.UPC,cuesheet.DISCID",
+            "settings": {
+              "foreground": "#ffa200cd",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.CATALOG.number,cuesheet.UPC.number,cuesheet.DISCID.number",
+            "settings": {
+              "foreground": "#ff6e2bcd",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.GENRE.disc,cuesheet.DATE.disc",
+            "settings": {
+              "foreground": "#ffa200cd",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.GENRE.track,cuesheet.DATE.track",
+            "settings": {
+              "foreground": "#76a07d",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.GENRE.string,cuesheet.DATE.string",
+            "settings": {
+              "foreground": "#4EC9B0",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.DISCNUMBER,cuesheet.TOTALDISCS",
+            "settings": {
+              "foreground": "#ffa200cd",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.DISCNUMBER.number,cuesheet.TOTALDISCS.number",
+            "settings": {
+              "foreground": "#ff6e2bcd",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.COMMENT.disc",
+            "settings": {
+              "foreground": "#ffa200cd",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.COMMENT.track",
+            "settings": {
+              "foreground": "#76a07d",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.COMMENT.string",
+            "settings": {
+              "foreground": "#6796E6",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.CDTEXTFILE",
+            "settings": {
+              "foreground": "#ffa200cd",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.CDTEXTFILE.path",
+            "settings": {
+              "foreground": "#9CDCFE",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.PERFORMER.disc",
+            "settings": {
+              "foreground": "#ffa200cd",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.PERFORMER.track",
+            "settings": {
+              "foreground": "#76a07d",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.PERFORMER.string",
+            "settings": {
+              "foreground": "#edc974",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.TITLE.disc",
+            "settings": {
+              "foreground": "#ffa200cd",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.TITLE.track",
+            "settings": {
+              "foreground": "#76a07d",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.TITLE.string",
+            "settings": {
+              "foreground": "#edc974",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.FILE",
+            "settings": {
+              "foreground": "#9370a5",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.FILE.path",
+            "settings": {
+              "foreground": "#9cdcff",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.FILE.type",
+            "settings": {
+              "foreground": "#9370a5",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.TRACK,cuesheet.TRACK.type",
+            "settings": {
+              "foreground": "#90a1d3",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.TRACK.number",
+            "settings": {
+              "foreground": "#b3cda5",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.ISRC",
+            "settings": {
+              "foreground": "#76a07d",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.ISRC.number",
+            "settings": {
+              "foreground": "#d3b683",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.SONGWRITER",
+            "settings": {
+              "foreground": "#76a07d",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.SONGWRITER.string",
+            "settings": {
+              "foreground": "#a08b66",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.FLAGS",
+            "settings": {
+              "foreground": "#76a07d",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.FLAGS.type",
+            "settings": {
+              "foreground": "#9370a5",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.INDEX",
+            "settings": {
+              "foreground": "#76a07d",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.INDEX.number",
+            "settings": {
+              "foreground": "#b3cda5",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.INDEX.time",
+            "settings": {
+              "foreground": "#559bd5",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.PREGAP,cuesheet.POSTGAP",
+            "settings": {
+              "foreground": "#76a07d",
+              "fontStyle": ""
+            }
+          },
+          {
+            "name": "cuesheet",
+            "scope": "cuesheet.PREGAP.time,cuesheet.POSTGAP.time",
+            "settings": {
+              "foreground": "#559bd5",
+              "fontStyle": ""
+            }
+          }
+        ]
+      }
     }
   }
 }
