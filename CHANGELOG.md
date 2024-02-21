@@ -1,5 +1,7 @@
-# Change Log
+#### RELEASE ID 0.4.0
+- COMMENT "The first full release"
+<br>"Added syntax of CUE Sheet files"
+<br>"Added syntax colors for Dark, Light and other themes"
 
-## [0.0.0]
-
-- Initial release
+#### RELEASE ID 0.0.0
+- COMMENT "Initial release"

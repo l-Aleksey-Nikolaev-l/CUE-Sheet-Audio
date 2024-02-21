@@ -2,14 +2,26 @@
   "name": "cue-sheet-audio",
   "displayName": "CUE Sheet Audio",
   "description": "This is an extension for CUE Sheets of Audio files",
-  "version": "0.2.0",
-  "author": "Aleksey Nikolaev",
-  "publisher": "",
+  "version": "0.4.0",
+  "icon": "images/icon.png",
+  "publisher": "QuantumPannonia",
+  "author": {
+    "name": "Aleksey Nikolaev"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/l-Aleksey-Nikolaev-l/CUE-Sheet-Audio"
   },
-  "icon": "images/icon.png",
+  "license": "LOOK AT THE LICENSE.md",
+  "homepage": "https://github.com/l-Aleksey-Nikolaev-l",
+  "bugs": {
+    "url": "https://github.com/l-Aleksey-Nikolaev-l/CUE-Sheet-Audio"
+  },
+  "galleryBanner": {
+    "color": "#523f3e",
+    "theme": "dark"
+  },
+  "pricing": "Free",
   "engines": {
     "vscode": "^1.86.0"
   },
