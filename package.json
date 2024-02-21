@@ -18,7 +18,7 @@
     "url": "https://github.com/l-Aleksey-Nikolaev-l/CUE-Sheet-Audio"
   },
   "galleryBanner": {
-    "color": "#523f3e",
+    "color": "#bdcdba",
     "theme": "dark"
   },
   "pricing": "Free",
@@ -35,6 +35,10 @@
         "aliases": [
           "CUE Sheet Audio",
           "CUE Sheet",
+          "CUE sheet",
+          "Cue Sheet",
+          "Cue sheet",
+          "cue sheet",
           "cuesheet"
         ],
         "extensions": [
