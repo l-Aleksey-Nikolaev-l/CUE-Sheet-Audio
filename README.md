@@ -16,8 +16,8 @@
 ## Release Notes
 #### RELEASE ID 0.4.0
 - COMMENT "The first full release"
-"Added syntax of CUE Sheet files"
-"Added syntax colors for Dark, Light and other themes"
+<br>"Added syntax of CUE Sheet files"
+<br>"Added syntax colors for Dark, Light and other themes"
 
 #### RELEASE ID 0.0.0
 - COMMENT "Initial release"
