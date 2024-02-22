@@ -19,18 +19,45 @@
     <img src="images/updates/040/syntax_errors.png" alt="Syntax Errors" width="800"/>
     <br>
     <b>Figure 2 - Syntax errors for Light/Dark theme.</b>
+    <br>
+    <br>
+    <br>
+    <img src="images/updates/050/templates.png" alt="Syntax Errors" width="800"/>
+    <br>
+    <b>Figure 3 - Templates for CUE Sheet and TRACK.</b>
+    <br>
+    <br>
+    <br>
+    <img src="images/updates/050/snippets.gif" alt="Syntax Errors" width="800"/>
+    <br>
+    <b>Figure 4 - All supported commands with descriptions and syntax examples.</b>
 
 </p>
 <br>
 
 ## Release Notes
+#### RELEASE ID 0.5.0
+- COMMENT "Added snippets"
+<br>"Added a template for CUE Sheet"
+<br>"Added a template for TRACK"
+<br>"Added description for all CUE commands"
+<br>"Added description for all FILE types"
+<br>"Added description for all TRACK types"
+<br>"Added description for all FLAGS type"
+<br>
+<br>
+
 #### RELEASE ID 0.4.0
 - COMMENT "The first full release"
 <br>"Added syntax of CUE Sheet files"
 <br>"Added syntax colors for Dark, Light and other themes"
+<br>
+<br>
 
 #### RELEASE ID 0.0.0
 - COMMENT "Initial release"
+<br>
+<br>
 
 ## Links for more information
 <p align="left" width="100%"> 
